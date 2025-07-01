@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gusto Mo Ba Ako?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="emoji-bg">
+    <span class="emoji" style="top:10%;left:8%;">🐰</span>
+    <span class="emoji" style="top:20%;left:70%;">❓</span>
+    <span class="emoji" style="top:60%;left:15%;">🐰</span>
+    <span class="emoji" style="top:80%;left:80%;">❓</span>
+    <span class="emoji" style="top:40%;left:50%;">🐰</span>
+    <span class="emoji" style="top:75%;left:35%;">❓</span>
+    <span class="emoji" style="top:30%;left:85%;">🐰</span>
+    <span class="emoji" style="top:55%;left:60%;">❓</span>
+  </div>
+  <div class="container">
+    <h1>Pwede mag kita tayo?</h1>
+    <div class="buttons">
+      <button id="yesBtn">Yes</button>
+      <button id="noBtn">No</button>
+    </div>
+  </div>
+  <div id="videoPopup" class="popup">
+    <div class="popup-content">
+      <span id="closePopup">&times;</span>
+      <p>Yan ang ginuguusto ko</p>
+      <video width="320" height="240" controls autoplay>
+        <source src="/src/jonavid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
